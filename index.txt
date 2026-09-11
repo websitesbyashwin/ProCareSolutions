@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Pro Care Solutions | Premium Renovations & Property Maintenance Gqeberha</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.imgur.com/YJB4Dyo.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pblue: '#0D6EFD',
+                        pgreen: '#8CC63F',
+                        navy: '#111827',
+                        lgray: '#F3F4F6',
+                        lblue: '#EAF3FF',
+                        pgreenHover: '#7ab332',
+                        pblueHover: '#0b5ed7'
+                    },
+                    fontFamily: {
+                        sans: ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+                        heading: ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+                        display: ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif']
+                    },
+                    backgroundImage: {
+                        'hero-gradient': 'linear-gradient(135deg, rgba(234, 243, 255, 0.95) 0%, rgba(255, 255, 255, 0.98) 100%)',
+                        'accent-gradient': 'linear-gradient(135deg, #0D6EFD 0%, #004dc7 100%)',
+                        'green-gradient': 'linear-gradient(135deg, #8CC63F 0%, #75ab30 100%)',
+                        'dark-gradient': 'linear-gradient(135deg, #111827 0%, #1f2937 100%)'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        *, ::before, ::after {
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        .font-hero-display {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+            letter-spacing: -0.02em;
+        }
+        html, body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+            font-weight: 400;
+            -webkit-tap-highlight-color: transparent;
+        }
+        body {
+            color: #111827;
+            background-color: #ffffff;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+            font-weight: 700 !important;
+        }
+        /* Mobile smooth scrolling optimization */
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #0D6EFD;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-white text-navy flex flex-col min-h-screen w-full selection:bg-pblue selection:text-white font-normal">
+
+    <!-- Top Contact Bar -->
+    <div class="w-full bg-navy text-white text-xs py-2 border-b border-gray-800 relative z-30">
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-3 sm:gap-4 flex-wrap justify-center sm:justify-start font-normal text-[11px] sm:text-xs">
+                <span class="flex items-center gap-1.5 text-gray-300">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-pgreen flex-shrink-0"></i> Gqeberha, Eastern Cape
+                </span>
+                <span class="flex items-center gap-1.5 text-gray-300">
+                    <i data-lucide="clock" class="w-3.5 h-3.5 text-pgreen flex-shrink-0"></i> Mon - Fri: 8:00 AM - 5:00 PM
+                </span>
+            </div>
+            <div class="flex items-center gap-4 text-[11px] sm:text-xs">
+                <a href="tel:+27609711561" class="hover:text-pgreen transition-colors flex items-center gap-1 font-bold min-h-[32px] px-1">
+                    <i data-lucide="phone" class="w-3.5 h-3.5"></i> +27 60 971 1561
+                </a>
+                <a href="https://maps.app.goo.gl/fAjgL9Nu1ywtVyLF6?g_st=ic" target="_blank" rel="noopener" class="text-gray-300 hover:text-white flex items-center gap-1 transition-colors font-normal min-h-[32px] px-1">
+                    <i data-lucide="map" class="w-3.5 h-3.5 text-pblue"></i> Google Map
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="w-full bg-white border-b border-gray-100 shadow-sm sticky top-0 z-40">
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 sm:py-3">
+            <div class="flex items-center justify-between gap-2 sm:gap-4">
+                
+                <!-- Business Brand / Logo Placement -->
+                <a href="#" class="flex items-center gap-2.5 sm:gap-3 group flex-shrink-0">
+                    <img src="https://i.imgur.com/YJB4Dyo.png" alt="Pro Care Solutions Logo" class="h-9 sm:h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+                    <div class="text-left">
+                        <span class="text-lg sm:text-2xl font-bold tracking-tight text-navy block leading-none">
+                            PRO CARE <span class="text-pblue">SOLUTIONS</span>
+                        </span>
+                        <span class="text-[8px] sm:text-[10px] font-bold uppercase tracking-widest text-pgreen block mt-1">
+                            Renovations & Maintenance
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Header Right Action Container -->
+                <div class="flex items-center gap-2 sm:gap-3">
+                    <div class="hidden sm:flex items-center gap-2">
+                        <!-- WhatsApp Button -->
+                        <a href="https://wa.me/27609711561" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba5a] text-white text-xs font-bold px-3 py-2.5 rounded-lg transition-all shadow-sm hover:shadow text-center min-h-[40px]">
+                            <svg class="w-4 h-4 fill-current flex-shrink-0" viewBox="0 0 24 24">
+                                <path d="M12.031 0C5.39 0 0 5.39 0 12.031c0 2.124.553 4.197 1.607 6.013L0 24l6.128-1.607a11.968 11.968 0 005.903 1.545h.005c6.64 0 12.03-5.39 12.03-12.031C24.066 5.39 18.671 0 12.031 0zm0 22.029h-.004a9.988 9.988 0 01-5.093-1.398l-.365-.217-3.785.992 1.01-3.69-.239-.38a9.962 9.962 0 01-1.528-5.305c0-5.523 4.493-10.016 10.018-10.016 5.522 0 10.015 4.493 10.015 10.016 0 5.523-4.493 10.018-10.019 10.018zm5.492-7.5c-.301-.151-1.782-.879-2.058-.979-.276-.1-.477-.151-.678.151-.201.301-.779.979-.955 1.18-.176.201-.352.226-.653.075-.301-.151-1.272-.469-2.423-1.495-.896-.799-1.501-1.786-1.677-2.087-.176-.301-.019-.464.132-.614.136-.135.301-.352.452-.528.151-.176.201-.301.301-.502.101-.201.05-.377-.025-.528-.075-.151-.678-1.633-.929-2.235-.245-.588-.495-.508-.678-.517l-.578-.01c-.201 0-.528.075-.804.377s-1.055 1.03-1.055 2.512 1.08 2.914 1.231 3.115c.151.201 2.125 3.245 5.148 4.551.719.31 1.281.496 1.719.635.723.23 1.381.197 1.901.12.58-.087 1.782-.728 2.033-1.431.251-.703.251-1.306.176-1.431-.075-.126-.276-.201-.577-.352z"/>
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+
+                        <!-- Call Now Button -->
+                        <a href="tel:+27609711561" class="inline-flex items-center justify-center gap-1.5 bg-pblue hover:bg-pblueHover text-white text-xs font-bold px-3 py-2.5 rounded-lg transition-all shadow-sm hover:shadow text-center min-h-[40px]">
+                            <i data-lucide="phone-call" class="w-4 h-4 flex-shrink-0"></i>
+                            <span>Call</span>
+                        </a>
+                    </div>
+
+                    <!-- Menu Toggle Button -->
+                    <button id="menu-btn" onclick="toggleHeaderMenu()" aria-label="Toggle Navigation Menu" class="inline-flex items-center justify-center gap-1.5 bg-navy hover:bg-black text-white text-xs font-bold px-3 sm:px-4 py-2.5 rounded-lg transition-all shadow-sm hover:shadow border border-navy focus:outline-none min-h-[40px]">
+                        <i data-lucide="menu" id="menu-icon" class="w-4 h-4 text-pgreen"></i>
+                        <span>MENU</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Header Menu Overlay -->
+            <div id="header-menu" class="hidden mt-3 pt-3 border-t border-gray-200 bg-white rounded-xl shadow-lg p-4 transition-all">
+                <nav class="flex flex-col md:flex-row justify-center items-center gap-2 sm:gap-6 text-sm font-bold text-navy">
+                    <a href="#services" onclick="closeHeaderMenu()" class="w-full md:w-auto text-center py-2.5 px-4 rounded-lg hover:bg-lblue hover:text-pblue transition-colors">Services</a>
+                    <a href="#about" onclick="closeHeaderMenu()" class="w-full md:w-auto text-center py-2.5 px-4 rounded-lg hover:bg-lblue hover:text-pblue transition-colors">About</a>
+                    <a href="#gallery" onclick="closeHeaderMenu()" class="w-full md:w-auto text-center py-2.5 px-4 rounded-lg hover:bg-lblue hover:text-pblue transition-colors">Gallery</a>
+                    <a href="#faq" onclick="closeHeaderMenu()" class="w-full md:w-auto text-center py-2.5 px-4 rounded-lg hover:bg-lblue hover:text-pblue transition-colors">FAQ</a>
+                    <a href="#contact" onclick="closeHeaderMenu()" class="w-full md:w-auto text-center py-2.5 px-4 rounded-lg bg-pblue text-white hover:bg-pblueHover transition-colors">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center w-full">
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+                <div class="h-[3px] bg-navy w-16 sm:w-24 mx-3 rounded-full"></div>
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow w-full bg-white">
+        <!-- Hero Section with Quote Form -->
+        <section class="w-full relative bg-white pt-6 sm:pt-10 pb-12 sm:pb-16 lg:py-20">
+            <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                    
+                    <!-- Hero Content -->
+                    <div class="lg:col-span-7 text-center lg:text-left">
+                        
+                        <!-- HERO HEADING (BOLD) -->
+                        <h1 class="font-hero-display text-[clamp(1.75rem,5.5vw,4.25rem)] font-bold uppercase text-navy leading-[1.05] sm:leading-[0.98] tracking-tight mb-4 sm:mb-6">
+                            <span class="block text-navy">TRANSFORMING SPACES,</span>
+                            <span class="block text-transparent bg-clip-text bg-accent-gradient py-0.5 sm:py-1">MAINTAINING PROPERTIES</span>
+                            <span class="block text-navy">WITH QUALITY CRAFTSMANSHIP.</span>
+                        </h1>
+
+                        <!-- HERO BODY TEXT (REGULAR HELVETICA) -->
+                        <p class="text-gray-700 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 sm:mb-8 max-w-2xl mx-auto lg:mx-0 font-normal">
+                            Transforming spaces and maintaining properties with quality craftsmanship, attention to detail, and dependable service. From renovations and upgrades to repairs and general maintenance, we provide professional solutions tailored to your needs—delivering exceptional results that enhance the look, functionality, and lasting value of your property.
+                        </p>
+                        
+                        <!-- Quick Badges -->
+                        <div class="grid grid-cols-3 gap-2 sm:gap-3 max-w-lg mx-auto lg:mx-0 border-t border-b border-gray-300 py-3 sm:py-4 mb-6 sm:mb-8">
+                            <div class="text-center lg:text-left">
+                                <span class="block text-lg sm:text-2xl font-bold text-navy">100%</span>
+                                <span class="text-[10px] sm:text-xs text-gray-600 font-normal">Quality Focus</span>
+                            </div>
+                            <div class="text-center lg:text-left border-x border-gray-300 px-1 sm:px-2">
+                                <span class="block text-lg sm:text-2xl font-bold text-navy">Fast</span>
+                                <span class="text-[10px] sm:text-xs text-gray-600 font-normal">Response Time</span>
+                            </div>
+                            <div class="text-center lg:text-left">
+                                <span class="block text-lg sm:text-2xl font-bold text-navy">Residential</span>
+                                <span class="text-[10px] sm:text-xs text-gray-600 font-normal">& Commercial</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row flex-wrap gap-3 justify-center lg:justify-start">
+                            <a href="https://wa.me/27609711561" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold px-5 sm:px-6 py-3.5 rounded-xl shadow-md hover:shadow-lg transition-all text-sm min-h-[48px]">
+                                <svg class="w-5 h-5 fill-current flex-shrink-0" viewBox="0 0 24 24">
+                                    <path d="M12.031 0C5.39 0 0 5.39 0 12.031c0 2.124.553 4.197 1.607 6.013L0 24l6.128-1.607a11.968 11.968 0 005.903 1.545h.005c6.64 0 12.03-5.39 12.03-12.031C24.066 5.39 18.671 0 12.031 0zm0 22.029h-.004a9.988 9.988 0 01-5.093-1.398l-.365-.217-3.785.992 1.01-3.69-.239-.38a9.962 9.962 0 01-1.528-5.305c0-5.523 4.493-10.016 10.018-10.016 5.522 0 10.015 4.493 10.015 10.016 0 5.523-4.493 10.018-10.019 10.018zm5.492-7.5c-.301-.151-1.782-.879-2.058-.979-.276-.1-.477-.151-.678.151-.201.301-.779.979-.955 1.18-.176.201-.352.226-.635.075-.301-.151-1.272-.469-2.423-1.495-.896-.799-1.501-1.786-1.677-2.087-.176-.301-.019-.464.132-.614.136-.135.301-.352.452-.528.151-.176.201-.301.301-.502.101-.201.05-.377-.025-.528-.075-.151-.678-1.633-.929-2.235-.245-.588-.495-.508-.678-.517l-.578-.01c-.201 0-.528.075-.804.377s-1.055 1.03-1.055 2.512 1.08 2.914 1.231 3.115c.151.201 2.125 3.245 5.148 4.551.719.31 1.281.496 1.719.635.723.23 1.381.197 1.901.12.58-.087 1.782-.728 2.033-1.431.251-.703.251-1.306.176-1.431-.075-.126-.276-.201-.577-.352z"/>
+                                </svg>
+                                <span>Chat on WhatsApp</span>
+                            </a>
+                            <a href="https://www.facebook.com/share/1Jaa9RG4Sn/?mibextid=wwXIfr" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-[#1877F2] hover:bg-[#0d65d9] text-white font-bold px-5 sm:px-6 py-3.5 rounded-xl shadow-md hover:shadow-lg transition-all text-sm min-h-[48px]">
+                                <svg class="w-5 h-5 fill-current flex-shrink-0" viewBox="0 0 24 24">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                                <span>Follow Our Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Hero Quick Quote Form -->
+                    <div id="contact" class="lg:col-span-5 w-full scroll-mt-24">
+                        <div class="bg-white rounded-2xl p-5 sm:p-8 shadow-xl border border-gray-200 relative w-full">
+                            <div class="absolute -top-3 left-6 bg-pgreen text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm">
+                                Free Quote Request
+                            </div>
+                            <!-- SUBHEADING (BOLD) -->
+                            <h2 class="text-xl font-bold text-navy mb-1 mt-1">Get Your Free Estimate</h2>
+                            <p class="text-xs text-gray-500 mb-5 font-normal">Fill in your details and we will direct your inquiry immediately.</p>
+                            
+                            <form action="mailto:info@procaresolutions.co.za" method="post" enctype="text/plain" class="space-y-3.5 sm:space-y-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 mb-1">Full Name *</label>
+                                    <div class="relative">
+                                        <i data-lucide="user" class="w-4 h-4 absolute left-3 top-3.5 text-gray-400"></i>
+                                        <input type="text" name="Full Name" required placeholder="John Doe" class="w-full pl-9 pr-3 py-2.5 sm:py-2.5 text-sm bg-lgray border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-pblue focus:bg-white transition-all font-normal min-h-[44px]">
+                                    </div>
+                                </div>
+                                
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                    <div>
+                                        <label class="block text-xs font-bold text-gray-700 mb-1">Phone / WhatsApp *</label>
+                                        <div class="relative">
+                                            <i data-lucide="phone" class="w-4 h-4 absolute left-3 top-3.5 text-gray-400"></i>
+                                            <input type="tel" name="Phone Number" required placeholder="+27 00 000 0000" class="w-full pl-9 pr-3 py-2.5 text-sm bg-lgray border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-pblue focus:bg-white transition-all font-normal min-h-[44px]">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold text-gray-700 mb-1">Email Address</label>
+                                        <div class="relative">
+                                            <i data-lucide="mail" class="w-4 h-4 absolute left-3 top-3.5 text-gray-400"></i>
+                                            <input type="email" name="Email" placeholder="name@example.com" class="w-full pl-9 pr-3 py-2.5 text-sm bg-lgray border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-pblue focus:bg-white transition-all font-normal min-h-[44px]">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 mb-1">Primary Service Needed</label>
+                                    <select name="Service Needed" class="w-full px-3 py-2.5 text-sm bg-lgray border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-pblue focus:bg-white transition-all text-gray-700 font-normal min-h-[44px]">
+                                        <option value="General Maintenance">General Property Maintenance</option>
+                                        <option value="Home Renovations">Full Home / Room Renovations</option>
+                                        <option value="Gate Motors & Security">Gate Motors / Electric Fencing / Tags</option>
+                                        <option value="Plumbing Services">Plumbing Services & Water Meters</option>
+                                        <option value="Electrical Services">Electrical Repairs & Upgrades</option>
+                                        <option value="Cleaning Services">Weekly Building / Garden Cleaning</option>
+                                        <option value="Other">Other Repairs / Custom Project</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-gray-700 mb-1">Project Details *</label>
+                                    <textarea name="Project Description" rows="3" required placeholder="Describe what you need repaired or renovated..." class="w-full p-3 text-sm bg-lgray border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-pblue focus:bg-white transition-all font-normal"></textarea>
+                                </div>
+
+                                <button type="submit" class="w-full bg-pblue hover:bg-pblueHover text-white font-bold py-3 px-4 rounded-xl shadow-md transition-all flex items-center justify-center gap-2 group text-sm min-h-[48px]">
+                                    <span>Send Inquiry via Email</span>
+                                    <i data-lucide="send" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+                                </button>
+                                <p class="text-[11px] text-gray-400 text-center font-normal">Inquiries are sent directly to info@procaresolutions.co.za</p>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center w-full">
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+                <div class="h-[3px] bg-navy w-16 sm:w-24 mx-3 rounded-full"></div>
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+            </div>
+        </div>
+
+        <!-- About Pro Care Solutions & Operating Hours Section -->
+        <section id="about" class="w-full py-12 sm:py-20 lg:py-24 bg-slate-50/70 scroll-mt-20">
+            <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                    
+                    <!-- About Pro Care Column -->
+                    <div class="lg:col-span-7 space-y-4 sm:space-y-6">
+                        <span class="inline-block text-pblue text-xs font-bold uppercase tracking-widest bg-lblue px-3.5 py-1.5 rounded-full border border-pblue/10">
+                            About Pro Care Solutions
+                        </span>
+                        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-navy tracking-tight leading-tight">
+                            Your Trusted Partner for Property Maintenance & Renovations in Gqeberha
+                        </h2>
+                        <p class="text-gray-700 text-sm sm:text-base leading-relaxed font-normal">
+                            Led by Director <strong>Melony Henriques</strong>, Pro Care Solutions was founded on the principles of dependability, meticulous attention to detail, and top-tier craftsmanship. We understand that your home or commercial property is one of your most valuable assets, which is why we approach every job—big or small—with equal dedication and expertise.
+                        </p>
+                        <p class="text-gray-700 text-sm sm:text-base leading-relaxed font-normal">
+                            From complete room renovations and custom tiling to gate motor installs, electrical work, plumbing, and routine site upkeep, our team delivers long-lasting results across Gqeberha and the surrounding Eastern Cape region.
+                        </p>
+                    </div>
+
+                    <!-- Business Operating Hours Card -->
+                    <div class="lg:col-span-5 w-full">
+                        <div class="bg-navy text-white rounded-2xl p-5 sm:p-8 shadow-xl border border-gray-800 relative overflow-hidden">
+                            <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-pgreen/10 rounded-full blur-2xl pointer-events-none"></div>
+
+                            <div class="flex items-center gap-3 mb-6 border-b border-gray-800 pb-4">
+                                <div class="bg-pgreen/20 p-2.5 rounded-xl text-pgreen flex-shrink-0">
+                                    <i data-lucide="clock-3" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg sm:text-xl font-bold text-white">Business Operating Hours</h3>
+                                    <p class="text-xs text-gray-400 font-normal">Gqeberha & Surrounding Areas</p>
+                                </div>
+                            </div>
+
+                            <!-- Schedule Table -->
+                            <div class="space-y-3.5 text-xs sm:text-sm font-normal">
+                                <div class="flex justify-between items-center pb-2.5 border-b border-gray-800">
+                                    <span class="text-gray-300 flex items-center gap-2">
+                                        <i data-lucide="calendar" class="w-4 h-4 text-pgreen flex-shrink-0"></i> Monday - Friday
+                                    </span>
+                                    <span class="font-bold text-white bg-gray-800/80 px-2.5 py-1 rounded text-xs">8:00 AM – 5:00 PM</span>
+                                </div>
+
+                                <div class="flex justify-between items-center pb-2.5 border-b border-gray-800">
+                                    <span class="text-gray-300 flex items-center gap-2">
+                                        <i data-lucide="calendar" class="w-4 h-4 text-pblue flex-shrink-0"></i> Saturday
+                                    </span>
+                                    <span class="font-bold text-pgreen bg-gray-800/80 px-2.5 py-1 rounded text-xs">08:00 – 13:00</span>
+                                </div>
+
+                                <div class="flex justify-between items-center pb-2.5 border-b border-gray-800">
+                                    <span class="text-gray-300 flex items-center gap-2">
+                                        <i data-lucide="calendar" class="w-4 h-4 text-gray-500 flex-shrink-0"></i> Sunday & Holidays
+                                    </span>
+                                    <span class="font-bold text-red-400 bg-gray-800/80 px-2.5 py-1 rounded text-xs">Closed</span>
+                                </div>
+                            </div>
+
+                            <!-- Quick Action inside Hours Card -->
+                            <div class="mt-6 pt-4 border-t border-gray-800/80 text-center">
+                                <p class="text-xs text-gray-400 mb-3 font-normal">Need urgent maintenance outside standard hours?</p>
+                                <a href="https://wa.me/27609711561" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold px-4 py-3 rounded-xl w-full text-xs shadow transition-all min-h-[44px]">
+                                    <svg class="w-4 h-4 fill-current flex-shrink-0" viewBox="0 0 24 24">
+                                        <path d="M12.031 0C5.39 0 0 5.39 0 12.031c0 2.124.553 4.197 1.607 6.013L0 24l6.128-1.607a11.968 11.968 0 005.903 1.545h.005c6.64 0 12.03-5.39 12.03-12.031C24.066 5.39 18.671 0 12.031 0zm0 22.029h-.004a9.988 9.988 0 01-5.093-1.398l-.365-.217-3.785.992 1.01-3.69-.239-.38a9.962 9.962 0 01-1.528-5.305c0-5.523 4.493-10.016 10.018-10.016 5.522 0 10.015 4.493 10.015 10.016 0 5.523-4.493 10.018-10.019 10.018zm5.492-7.5c-.301-.151-1.782-.879-2.058-.979-.276-.1-.477-.151-.678.151-.201.301-.779.979-.955 1.18-.176.201-.352.226-.635.075-.301-.151-1.272-.469-2.423-1.495-.896-.799-1.501-1.786-1.677-2.087-.176-.301-.019-.464.132-.614.136-.135.301-.352.452-.528.151-.176.201-.301.301-.502.101-.201.05-.377-.025-.528-.075-.151-.678-1.633-.929-2.235-.245-.588-.495-.508-.678-.517l-.578-.01c-.201 0-.528.075-.804.377s-1.055 1.03-1.055 2.512 1.08 2.914 1.231 3.115c.151.201 2.125 3.245 5.148 4.551.719.31 1.281.496 1.719.635.723.23 1.381.197 1.901.12.58-.087 1.782-.728 2.033-1.431.251-.703.251-1.306.176-1.431-.075-.126-.276-.201-.577-.352z"/>
+                                    </svg>
+                                    <span>Send WhatsApp Emergency Inquiry</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Google Business Review CTA Button -->
+                        <div class="mt-3.5">
+                            <a href="https://maps.app.goo.gl/9XGjrMveqevpLo41A?g_st=ic" target="_blank" rel="noopener" class="w-full bg-white hover:bg-slate-100 text-navy font-bold py-3.5 px-4 rounded-2xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2.5 text-xs sm:text-sm border border-gray-200 group min-h-[48px]">
+                                <svg class="w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                                <span>Give Us A Review</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Showcase Section -->
+        <section id="services" class="w-full py-12 sm:py-20 lg:py-24 bg-white scroll-mt-20">
+            <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
+                    <span class="text-pgreen text-xs font-bold uppercase tracking-widest bg-green-50 px-3 py-1 rounded-full border border-pgreen/20">What We Do</span>
+                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-navy mt-3 mb-3 sm:mb-4">Our Professional Services</h2>
+                    <p class="text-gray-600 text-sm sm:text-base font-normal">Complete renovations and property maintenance solutions for residential homes and commercial complexes in Gqeberha.</p>
+                </div>
+
+                <!-- Tab Navigation Buttons -->
+                <div class="flex flex-wrap items-center justify-center gap-2 mb-6 sm:mb-8 border-b border-gray-200 pb-4">
+                    <button onclick="switchServiceTab('all')" id="tab-btn-all" class="service-tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-navy text-white shadow-sm active-tab min-h-[40px]">
+                        All Services
+                    </button>
+                    <button onclick="switchServiceTab('renovations')" id="tab-btn-renovations" class="service-tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold text-gray-600 hover:text-navy hover:bg-gray-100 transition-all min-h-[40px]">
+                        Renovations & Finishes
+                    </button>
+                    <button onclick="switchServiceTab('security')" id="tab-btn-security" class="service-tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold text-gray-600 hover:text-navy hover:bg-gray-100 transition-all min-h-[40px]">
+                        Security & Automation
+                    </button>
+                    <button onclick="switchServiceTab('utility')" id="tab-btn-utility" class="service-tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold text-gray-600 hover:text-navy hover:bg-gray-100 transition-all min-h-[40px]">
+                        Plumbing & Electrical
+                    </button>
+                    <button onclick="switchServiceTab('maintenance')" id="tab-btn-maintenance" class="service-tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold text-gray-600 hover:text-navy hover:bg-gray-100 transition-all min-h-[40px]">
+                        Upkeep & Cleaning
+                    </button>
+                </div>
+
+                <!-- Mobile-Optimized Tabular Services Table -->
+                <div class="w-full rounded-2xl border border-gray-200 shadow-lg bg-white overflow-hidden">
+                    <table class="w-full text-left border-collapse table-fixed">
+                        <thead>
+                            <tr class="bg-navy text-white text-[11px] sm:text-xs uppercase tracking-wider border-b border-navy">
+                                <th class="p-2.5 sm:p-5 font-bold w-5/12 sm:w-1/3">Service & Category</th>
+                                <th class="p-2.5 sm:p-5 font-bold w-7/12 sm:w-2/3">Scope of Work</th>
+                            </tr>
+                        </thead>
+                        <tbody id="services-table-body" class="divide-y divide-gray-200 text-xs sm:text-sm">
+                            <!-- Row 1 -->
+                            <tr class="service-row hover:bg-slate-50/80 transition-colors" data-category="renovations">
+                                <td class="p-2.5 sm:p-5 align-top">
+                                    <div class="flex items-start sm:items-center gap-1.5 sm:gap-3">
+                                        <div class="w-6 h-6 sm:w-10 sm:h-10 bg-lblue text-pblue font-extrabold rounded-md sm:rounded-xl flex items-center justify-center flex-shrink-0 text-[10px] sm:text-base">
+                                            01
+                                        </div>
+                                        <div>
+                                            <span class="font-bold text-navy text-xs sm:text-base block leading-snug break-words">Home & Room Renovations</span>
+                                            <span class="text-[9px] sm:text-[11px] font-bold text-pblue uppercase tracking-wider bg-lblue px-1.5 sm:px-2 py-0.5 rounded inline-block mt-1">Renovations</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="p-2.5 sm:p-5 align-top text-gray-600 text-[11px] sm:text-sm leading-relaxed break-words">
+                                    Full kitchen, bathroom, and interior room remodeling, wall additions, drop ceilings, and customized aesthetic improvements.
+                                </td>
+                            </tr>
+
+                            <!-- Row 2 -->
+                            <tr class="service-row hover:bg-slate-50/80 transition-colors" data-category="security">
+                                <td class="p-2.5 sm:p-5 align-top">
+                                    <div class="flex items-start sm:items-center gap-1.5 sm:gap-3">
+                                        <div class="w-6 h-6 sm:w-10 sm:h-10 bg-green-50 text-pgreen font-extrabold rounded-md sm:rounded-xl flex items-center justify-center flex-shrink-0 text-[10px] sm:text-base">
+                                            02
+                                        </div>
+                                        <div>
+                                            <span class="font-bold text-navy text-xs sm:text-base block leading-snug break-words">Gate Motors & Security Systems</span>
+                                            <span class="text-[9px] sm:text-[11px] font-bold text-pgreen uppercase tracking-wider bg-green-50 px-1.5 sm:px-2 py-0.5 rounded inline-block mt-1">Security</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="p-2.5 sm:p-5 align-top text-gray-600 text-[11px] sm:text-sm leading-relaxed break-words">
+                                    Gate motor installation, repairs, electric fence energizer upgrades, access tag programming, and perimeter checks.
+                                </td>
+                            </tr>
+
+                            <!-- Row 3 -->
+                            <tr class="service-row hover:bg-slate-50/80 transition-colors" data-category="utility">
+                                <td class="p-2.5 sm:p-5 align-top">
+                                    <div class="flex items-start sm:items-center gap-1.5 sm:gap-3">
+                                        <div class="w-6 h-6 sm:w-10 sm:h-10 bg-lblue text-pblue font-extrabold rounded-md sm:rounded-xl flex items-center justify-center flex-shrink-0 text-[10px] sm:text-base">
+                                            03
+                                        </div>
+                                        <div>
+                                            <span class="font-bold text-navy text-xs sm:text-base block leading-snug break-words">Plumbing & Water Meters</span>
+                                            <span class="text-[9px] sm:text-[11px] font-bold text-pblue uppercase tracking-wider bg-lblue px-1.5 sm:px-2 py-0.5 rounded inline-block mt-1">Utilities</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="p-2.5 sm:p-5 align-top text-gray-600 text-[11px] sm:text-sm leading-relaxed break-words">
+                                    Sub-water meter installations, leak detection, pipe replacements, geyser maintenance, and sanitary fitting repairs.
+                                </td>
+                            </tr>
+
+                            <!-- Row 4 -->
+                            <tr class="service-row hover:bg-slate-50/80 transition-colors" data-category="utility">
+                                <td class="p-2.5 sm:p-5 align-top">
+                                    <div class="flex items-start sm:items-center gap-1.5 sm:gap-3">
+                                        <div class="w-6 h-6 sm:w-10 sm:h-10 bg-green-50 text-pgreen font-extrabold rounded-md sm:rounded-xl flex items-center justify-center flex-shrink-0 text-[10px] sm:text-base">
+                                            04
+                                        </div>
+                                        <div>
+                                            <span class="font-bold text-navy text-xs sm:text-base block leading-snug break-words">Electrical Repairs & Upgrades</span>
+                                            <span class="text-[9px] sm:text-[11px] font-bold text-pgreen uppercase tracking-wider bg-green-50 px-1.5 sm:px-2 py-0.5 rounded inline-block mt-1">Utilities</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="p-2.5 sm:p-5 align-top text-gray-600 text-[11px] sm:text-sm leading-relaxed break-words">
+                                    Lighting fixture installs, DB board assessments, fault finding, socket point additions, and general wiring maintenance.
+                                </td>
+                            </tr>
+
+                            <!-- Row 5 -->
+                            <tr class="service-row hover:bg-slate-50/80 transition-colors" data-category="renovations">
+                                <td class="p-2.5 sm:p-5 align-top">
+                                    <div class="flex items-start sm:items-center gap-1.5 sm:gap-3">
+                                        <div class="w-6 h-6 sm:w-10 sm:h-10 bg-lblue text-pblue font-extrabold rounded-md sm:rounded-xl flex items-center justify-center flex-shrink-0 text-[10px] sm:text-base">
+                                            05
+                                        </div>
+                                        <div>
+                                            <span class="font-bold text-navy text-xs sm:text-base block leading-snug break-words">Painting, Tiling & Roofing</span>
+                                            <span class="text-[9px] sm:text-[11px] font-bold text-pblue uppercase tracking-wider bg-lblue px-1.5 sm:px-2 py-0.5 rounded inline-block mt-1">Finishes</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="p-2.5 sm:p-5 align-top text-gray-600 text-[11px] sm:text-sm leading-relaxed break-words">
+                                    Interior & exterior painting, precision floor and wall tiling, roof sealant applications, and structural touch-ups.
+                                </td>
+                            </tr>
+
+                            <!-- Row 6 -->
+                            <tr class="service-row hover:bg-slate-50/80 transition-colors" data-category="maintenance">
+                                <td class="p-2.5 sm:p-5 align-top">
+                                    <div class="flex items-start sm:items-center gap-1.5 sm:gap-3">
+                                        <div class="w-6 h-6 sm:w-10 sm:h-10 bg-green-50 text-pgreen font-extrabold rounded-md sm:rounded-xl flex items-center justify-center flex-shrink-0 text-[10px] sm:text-base">
+                                            06
+                                        </div>
+                                        <div>
+                                            <span class="font-bold text-navy text-xs sm:text-base block leading-snug break-words">Weekly Cleaning & Refuse Upkeep</span>
+                                            <span class="text-[9px] sm:text-[11px] font-bold text-pgreen uppercase tracking-wider bg-green-50 px-1.5 sm:px-2 py-0.5 rounded inline-block mt-1">Upkeep</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="p-2.5 sm:p-5 align-top text-gray-600 text-[11px] sm:text-sm leading-relaxed break-words">
+                                    Weekly commercial & residential building cleaning, garden refuse removal, and wheelie bin rental management services.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center w-full">
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+                <div class="h-[3px] bg-navy w-16 sm:w-24 mx-3 rounded-full"></div>
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+            </div>
+        </div>
+
+        <!-- Why Choose Us Section (Redesigned Premium Navy Card Layout) -->
+        <section id="why-us" class="w-full py-12 sm:py-20 lg:py-24 bg-white relative overflow-hidden">
+            
+            <!-- Soft Green Ambient Background Treatments -->
+            <div class="absolute -top-24 -left-24 w-96 h-96 bg-pgreen/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-pgreen/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-tr from-pgreen/5 via-transparent to-pgreen/5 rounded-full blur-3xl pointer-events-none"></div>
+
+            <!-- Soft Translucent Geometric Background Accent -->
+            <div class="absolute top-12 right-0 w-72 h-72 bg-gradient-to-bl from-pgreen/10 to-transparent transform rotate-45 pointer-events-none opacity-60"></div>
+            <div class="absolute bottom-12 left-0 w-72 h-72 bg-gradient-to-tr from-pgreen/10 to-transparent transform -rotate-45 pointer-events-none opacity-60"></div>
+
+            <div class="w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+                
+                <!-- Section Header -->
+                <div class="max-w-3xl mx-auto mb-8 sm:mb-12">
+                    
+                    <!-- OUR COMMITMENTS Pill Badge with Flanking Navy Lines -->
+                    <div class="flex items-center justify-center gap-3 sm:gap-4 mb-4 sm:mb-5">
+                        <div class="h-[1.5px] w-8 sm:w-16 bg-navy/80"></div>
+                        <span class="text-navy text-[10px] sm:text-xs font-bold uppercase tracking-widest bg-[#D5F0A3] px-3.5 sm:px-4 py-1.5 rounded-full shadow-sm">
+                            OUR COMMITMENTS
+                        </span>
+                        <div class="h-[1.5px] w-8 sm:w-16 bg-navy/80"></div>
+                    </div>
+
+                    <!-- Main Heading -->
+                    <h2 class="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-navy tracking-tight leading-tight mt-2 mb-3 sm:mb-4">
+                        Why Choose <span class="text-pgreen">Pro Care</span> Solutions
+                    </h2>
+
+                    <!-- Supporting Text -->
+                    <p class="text-gray-700 text-xs sm:text-base lg:text-lg font-normal max-w-2xl mx-auto leading-relaxed">
+                        We prioritize quality craftsmanship, transparent communications, and dependable execution on every task.
+                    </p>
+                </div>
+
+                <!-- Navy Divider Line under Subtitle -->
+                <div class="my-6 sm:my-10 max-w-xl mx-auto flex items-center justify-center">
+                    <div class="h-[1px] bg-navy/20 flex-1"></div>
+                    <div class="h-[3.5px] bg-navy w-16 sm:w-20 rounded-full mx-3"></div>
+                    <div class="h-[1px] bg-navy/20 flex-1"></div>
+                </div>
+
+                <!-- The 3 Premium Dark Navy Cards Container -->
+                <div class="max-w-4xl mx-auto space-y-4 sm:space-y-8">
+                    
+                    <!-- CARD 01 -->
+                    <div class="relative group bg-gradient-to-r from-[#091526] via-[#0F223D] to-[#0A172B] rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-10 shadow-xl border border-navy/40 hover:border-pgreen/50 hover:shadow-2xl transition-all duration-300 text-left overflow-hidden">
+                        <!-- Glossy Geometric Overlay -->
+                        <div class="absolute top-0 right-0 w-32 sm:w-64 h-32 sm:h-64 bg-gradient-to-bl from-white/10 via-transparent to-transparent pointer-events-none rounded-tr-2xl sm:rounded-tr-3xl"></div>
+                        <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-pgreen/15 blur-2xl rounded-full pointer-events-none"></div>
+
+                        <div class="relative z-10 flex flex-row items-center gap-3 sm:gap-8 lg:gap-10">
+                            <!-- Number -->
+                            <div class="flex-shrink-0 text-3xl sm:text-6xl lg:text-7xl font-extrabold text-pgreen tracking-tighter leading-none select-none w-10 sm:w-24 text-center sm:text-left">
+                                01
+                            </div>
+
+                            <!-- Thin Vertical Green Line Divider -->
+                            <div class="w-[2px] self-stretch bg-gradient-to-b from-pgreen/30 via-pgreen to-pgreen/30 rounded-full flex-shrink-0 opacity-80"></div>
+
+                            <!-- Content -->
+                            <div class="flex-1 min-w-0">
+                                <h3 class="text-sm sm:text-xl lg:text-2xl font-bold text-white uppercase tracking-wider mb-1 sm:mb-2 leading-tight">
+                                    QUALITY CRAFTSMANSHIP
+                                </h3>
+                                <p class="text-gray-300 text-xs sm:text-base leading-relaxed font-normal">
+                                    We take pride in high-precision execution using durable, premium-grade materials built to withstand everyday wear and tear.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Divider Between Card 01 and Card 02 -->
+                    <div class="my-4 sm:my-6 max-w-xl mx-auto flex items-center justify-center">
+                        <div class="h-[1px] bg-navy/20 flex-1"></div>
+                        <div class="h-[3.5px] bg-navy w-16 sm:w-20 rounded-full mx-3"></div>
+                        <div class="h-[1px] bg-navy/20 flex-1"></div>
+                    </div>
+
+                    <!-- CARD 02 -->
+                    <div class="relative group bg-gradient-to-r from-[#091526] via-[#0F223D] to-[#0A172B] rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-10 shadow-xl border border-navy/40 hover:border-pgreen/50 hover:shadow-2xl transition-all duration-300 text-left overflow-hidden">
+                        <!-- Glossy Geometric Overlay -->
+                        <div class="absolute top-0 right-0 w-32 sm:w-64 h-32 sm:h-64 bg-gradient-to-bl from-white/10 via-transparent to-transparent pointer-events-none rounded-tr-2xl sm:rounded-tr-3xl"></div>
+                        <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-pgreen/15 blur-2xl rounded-full pointer-events-none"></div>
+
+                        <div class="relative z-10 flex flex-row items-center gap-3 sm:gap-8 lg:gap-10">
+                            <!-- Number -->
+                            <div class="flex-shrink-0 text-3xl sm:text-6xl lg:text-7xl font-extrabold text-pgreen tracking-tighter leading-none select-none w-10 sm:w-24 text-center sm:text-left">
+                                02
+                            </div>
+
+                            <!-- Thin Vertical Green Line Divider -->
+                            <div class="w-[2px] self-stretch bg-gradient-to-b from-pgreen/30 via-pgreen to-pgreen/30 rounded-full flex-shrink-0 opacity-80"></div>
+
+                            <!-- Content -->
+                            <div class="flex-1 min-w-0">
+                                <h3 class="text-sm sm:text-xl lg:text-2xl font-bold text-white uppercase tracking-wider mb-1 sm:mb-2 leading-tight">
+                                    FAST & RESPONSIVE
+                                </h3>
+                                <p class="text-gray-300 text-xs sm:text-base leading-relaxed font-normal">
+                                    Quick turnaround times for quote requests, site inspections, and urgent maintenance queries across Gqeberha.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Divider Between Card 02 and Card 03 -->
+                    <div class="my-4 sm:my-6 max-w-xl mx-auto flex items-center justify-center">
+                        <div class="h-[1px] bg-navy/20 flex-1"></div>
+                        <div class="h-[3.5px] bg-navy w-16 sm:w-20 rounded-full mx-3"></div>
+                        <div class="h-[1px] bg-navy/20 flex-1"></div>
+                    </div>
+
+                    <!-- CARD 03 -->
+                    <div class="relative group bg-gradient-to-r from-[#091526] via-[#0F223D] to-[#0A172B] rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-10 shadow-xl border border-navy/40 hover:border-pgreen/50 hover:shadow-2xl transition-all duration-300 text-left overflow-hidden">
+                        <!-- Glossy Geometric Overlay -->
+                        <div class="absolute top-0 right-0 w-32 sm:w-64 h-32 sm:h-64 bg-gradient-to-bl from-white/10 via-transparent to-transparent pointer-events-none rounded-tr-2xl sm:rounded-tr-3xl"></div>
+                        <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-pgreen/15 blur-2xl rounded-full pointer-events-none"></div>
+
+                        <div class="relative z-10 flex flex-row items-center gap-3 sm:gap-8 lg:gap-10">
+                            <!-- Number -->
+                            <div class="flex-shrink-0 text-3xl sm:text-6xl lg:text-7xl font-extrabold text-pgreen tracking-tighter leading-none select-none w-10 sm:w-24 text-center sm:text-left">
+                                03
+                            </div>
+
+                            <!-- Thin Vertical Green Line Divider -->
+                            <div class="w-[2px] self-stretch bg-gradient-to-b from-pgreen/30 via-pgreen to-pgreen/30 rounded-full flex-shrink-0 opacity-80"></div>
+
+                            <!-- Content -->
+                            <div class="flex-1 min-w-0">
+                                <h3 class="text-sm sm:text-xl lg:text-2xl font-bold text-white uppercase tracking-wider mb-1 sm:mb-2 leading-tight">
+                                    TRUST & RELIABILITY
+                                </h3>
+                                <p class="text-gray-300 text-xs sm:text-base leading-relaxed font-normal">
+                                    You can count on us for honest advice, clear communication, and consistent, on-time delivery — every time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center w-full">
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+                <div class="h-[3px] bg-navy w-16 sm:w-24 mx-3 rounded-full"></div>
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="w-full py-12 sm:py-20 lg:py-24 bg-white scroll-mt-20">
+            <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
+                    <!-- SUBHEADING (BOLD) -->
+                    <span class="text-pblue text-xs font-bold uppercase tracking-widest bg-white px-3 py-1 rounded-full border border-gray-200">Our Portfolio</span>
+                    <!-- HEADING (BOLD) -->
+                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-navy mt-3 mb-3 sm:mb-4">Project Gallery</h2>
+                    <!-- BODY TEXT (REGULAR HELVETICA) -->
+                    <p class="text-gray-600 text-xs sm:text-base font-normal">Explore recent property renovations, gate motor installs, tiling, and painting projects carried out by Pro Care Solutions.</p>
+                </div>
+
+                <!-- 10 Clean Responsive Photo Cards -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-4">
+                    
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/FjR9Dm8.jpeg')">
+                        <img src="https://i.imgur.com/FjR9Dm8.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/Eoesvbb.jpeg')">
+                        <img src="https://i.imgur.com/Eoesvbb.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/dFcOvgk.jpeg')">
+                        <img src="https://i.imgur.com/dFcOvgk.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/zxHfTHQ.jpeg')">
+                        <img src="https://i.imgur.com/zxHfTHQ.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/0vxGGDG.jpeg')">
+                        <img src="https://i.imgur.com/0vxGGDG.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/Rcs8Kqu.jpeg')">
+                        <img src="https://i.imgur.com/Rcs8Kqu.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/iKypXM8.jpeg')">
+                        <img src="https://i.imgur.com/iKypXM8.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/CzumHmD.jpeg')">
+                        <img src="https://i.imgur.com/CzumHmD.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/dLi2rqA.jpeg')">
+                        <img src="https://i.imgur.com/dLi2rqA.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 aspect-square cursor-pointer" onclick="openLightbox('https://i.imgur.com/CUrDABb.jpeg')">
+                        <img src="https://i.imgur.com/CUrDABb.jpeg" alt="Project Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="fixed inset-0 bg-navy/90 backdrop-blur-sm z-50 hidden flex items-center justify-center p-3 sm:p-4">
+            <div class="bg-white rounded-2xl max-w-3xl w-full p-2.5 sm:p-4 relative shadow-2xl border border-gray-100">
+                <button onclick="closeLightbox()" aria-label="Close Lightbox" class="absolute top-2 right-2 sm:top-3 sm:right-3 text-gray-500 hover:text-navy p-1.5 z-10 bg-white/90 rounded-full shadow">
+                    <i data-lucide="x" class="w-5 h-5 sm:w-6 sm:h-6"></i>
+                </button>
+                <div class="max-h-[80vh] bg-lgray rounded-xl overflow-hidden border border-gray-200 flex items-center justify-center">
+                    <img id="modal-img" src="" alt="Enlarged Project Preview" class="w-full h-full object-contain max-h-[75vh]">
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center w-full">
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+                <div class="h-[3px] bg-navy w-16 sm:w-24 mx-3 rounded-full"></div>
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="w-full py-12 sm:py-20 lg:py-24 bg-white scroll-mt-20">
+            <div class="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-10 sm:mb-16">
+                    <!-- SUBHEADING (BOLD) -->
+                    <span class="text-pblue text-xs font-bold uppercase tracking-widest bg-lblue px-3 py-1 rounded-full border border-pblue/10">Questions & Answers</span>
+                    <!-- HEADING (BOLD) -->
+                    <h2 class="text-2xl sm:text-3xl font-bold text-navy mt-3 mb-3 sm:mb-4">Frequently Asked Questions</h2>
+                    <!-- BODY TEXT (REGULAR HELVETICA) -->
+                    <p class="text-gray-600 text-xs sm:text-base font-normal">Find answers to common questions about our property maintenance services in Gqeberha.</p>
+                </div>
+
+                <div class="space-y-3 sm:space-y-4">
+                    
+                    <!-- FAQ Item 1 -->
+                    <div class="border border-gray-200 rounded-xl overflow-hidden">
+                        <button onclick="toggleFaq(1)" class="w-full p-4 sm:p-5 text-left bg-white font-bold text-navy text-sm sm:text-base flex justify-between items-center hover:bg-lgray/50 transition-colors gap-3">
+                            <span>What areas in South Africa do you service?</span>
+                            <i id="faq-icon-1" data-lucide="chevron-down" class="w-5 h-5 text-pblue transition-transform flex-shrink-0"></i>
+                        </button>
+                        <div id="faq-ans-1" class="hidden p-4 sm:p-5 text-xs sm:text-sm text-gray-600 border-t border-gray-100 bg-gray-50/50 leading-relaxed font-normal">
+                            We are proudly based in Gqeberha (Port Elizabeth), Eastern Cape. We handle home renovations, security installs, gate motor setups, and ongoing property maintenance throughout Gqeberha and surrounding local districts.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="border border-gray-200 rounded-xl overflow-hidden">
+                        <button onclick="toggleFaq(2)" class="w-full p-4 sm:p-5 text-left bg-white font-bold text-navy text-sm sm:text-base flex justify-between items-center hover:bg-lgray/50 transition-colors gap-3">
+                            <span>How do I request a quote for my project?</span>
+                            <i id="faq-icon-2" data-lucide="chevron-down" class="w-5 h-5 text-pblue transition-transform flex-shrink-0"></i>
+                        </button>
+                        <div id="faq-ans-2" class="hidden p-4 sm:p-5 text-xs sm:text-sm text-gray-600 border-t border-gray-100 bg-gray-50/50 leading-relaxed font-normal">
+                            You can easily request a quote by filling out the online form at the top of this page, calling us directly at <strong>+27 60 971 1561</strong>, or messaging us on WhatsApp. We respond promptly to gather details or schedule an on-site assessment.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="border border-gray-200 rounded-xl overflow-hidden">
+                        <button onclick="toggleFaq(3)" class="w-full p-4 sm:p-5 text-left bg-white font-bold text-navy text-sm sm:text-base flex justify-between items-center hover:bg-lgray/50 transition-colors gap-3">
+                            <span>Do you provide ongoing commercial building maintenance?</span>
+                            <i id="faq-icon-3" data-lucide="chevron-down" class="w-5 h-5 text-pblue transition-transform flex-shrink-0"></i>
+                        </button>
+                        <div id="faq-ans-3" class="hidden p-4 sm:p-5 text-xs sm:text-sm text-gray-600 border-t border-gray-100 bg-gray-50/50 leading-relaxed font-normal">
+                            Yes! In addition to one-off renovations, we offer weekly building cleaning routines, garden refuse upkeep, bin rental services, security perimeter checks, and ongoing plumbing/electrical repairs for commercial properties.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="border border-gray-200 rounded-xl overflow-hidden">
+                        <button onclick="toggleFaq(4)" class="w-full p-4 sm:p-5 text-left bg-white font-bold text-navy text-sm sm:text-base flex justify-between items-center hover:bg-lgray/50 transition-colors gap-3">
+                            <span>What security maintenance options do you install?</span>
+                            <i id="faq-icon-4" data-lucide="chevron-down" class="w-5 h-5 text-pblue transition-transform flex-shrink-0"></i>
+                        </button>
+                        <div id="faq-ans-4" class="hidden p-4 sm:p-5 text-xs sm:text-sm text-gray-600 border-t border-gray-100 bg-gray-50/50 leading-relaxed font-normal">
+                            We specialize in gate motor installation and repair, electric fencing repairs and upgrades, and automated security tag systems designed to protect residential homes and commercial complexes.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="border border-gray-200 rounded-xl overflow-hidden">
+                        <button onclick="toggleFaq(5)" class="w-full p-4 sm:p-5 text-left bg-white font-bold text-navy text-sm sm:text-base flex justify-between items-center hover:bg-lgray/50 transition-colors gap-3">
+                            <span>Are your plumbing and electrical services qualified?</span>
+                            <i id="faq-icon-5" data-lucide="chevron-down" class="w-5 h-5 text-pblue transition-transform flex-shrink-0"></i>
+                        </button>
+                        <div id="faq-ans-5" class="hidden p-4 sm:p-5 text-xs sm:text-sm text-gray-600 border-t border-gray-100 bg-gray-50/50 leading-relaxed font-normal">
+                            Absolutely. Our team carries out all electrical repairs, water meter installs, leak fixes, and plumbing tasks under strict industry standards for property safety and reliability.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center w-full">
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+                <div class="h-[3px] bg-navy w-16 sm:w-24 mx-3 rounded-full"></div>
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+            </div>
+        </div>
+
+        <!-- CTA Bar Section -->
+        <section class="w-full bg-dark-gradient text-white py-10 sm:py-12 border-t border-pgreen/30">
+            <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+                <div>
+                    <!-- HEADING (BOLD) -->
+                    <h3 class="text-xl sm:text-2xl font-bold mb-2">Ready to Upgrade or Repair Your Property?</h3>
+                    <!-- BODY TEXT (REGULAR HELVETICA) -->
+                    <p class="text-gray-300 text-xs sm:text-sm max-w-xl font-normal">Contact Melony Henriques and the Pro Care Solutions team today for fast, dependable, and professional service in Gqeberha.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3 w-full md:w-auto justify-center">
+                    <a href="tel:+27609711561" class="bg-pgreen hover:bg-pgreenHover text-navy font-bold px-6 py-3 rounded-xl transition-all text-sm flex items-center justify-center gap-2 shadow-md min-h-[44px]">
+                        <i data-lucide="phone" class="w-4 h-4 flex-shrink-0"></i> Call +27 60 971 1561
+                    </a>
+                    
+                    <a href="https://wa.me/27609711561" target="_blank" rel="noopener" class="bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold px-6 py-3 rounded-xl transition-all text-sm flex items-center justify-center gap-2 shadow-md min-h-[44px]">
+                        <svg class="w-4 h-4 fill-current flex-shrink-0" viewBox="0 0 24 24">
+                            <path d="M12.031 0C5.39 0 0 5.39 0 12.031c0 2.124.553 4.197 1.607 6.013L0 24l6.128-1.607a11.968 11.968 0 005.903 1.545h.005c6.64 0 12.03-5.39 12.03-12.031C24.066 5.39 18.671 0 12.031 0zm0 22.029h-.004a9.988 9.988 0 01-5.093-1.398l-.365-.217-3.785.992 1.01-3.69-.239-.38a9.962 9.962 0 01-1.528-5.305c0-5.523 4.493-10.016 10.018-10.016 5.522 0 10.015 4.493 10.015 10.016 0 5.523-4.493 10.018-10.019 10.018zm5.492-7.5c-.301-.151-1.782-.879-2.058-.979-.276-.1-.477-.151-.678.151-.201.301-.779.979-.955 1.18-.176.201-.352.226-.653.075-.301-.151-1.272-.469-2.423-1.495-.896-.799-1.501-1.786-1.677-2.087-.176-.301-.019-.464.132-.614.136-.135.301-.352.452-.528.151-.176.201-.301.301-.502.101-.201.05-.377-.025-.528-.075-.151-.678-1.633-.929-2.235-.245-.588-.495-.508-.678-.517l-.578-.01c-.201 0-.528.075-.804.377s-1.055 1.03-1.055 2.512 1.08 2.914 1.231 3.115c.151.201 2.125 3.245 5.148 4.551.719.31 1.281.496 1.719.635.723.23 1.381.197 1.901.12.58-.087 1.782-.728 2.033-1.431.251-.703.251-1.306.176-1.431-.075-.126-.276-.201-.577-.352z"/>
+                        </svg>
+                        <span>WhatsApp Quick Chat</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center w-full">
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+                <div class="h-[3px] bg-navy w-16 sm:w-24 mx-3 rounded-full"></div>
+                <div class="h-[1px] bg-navy/20 flex-1"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-navy text-gray-300 pt-12 sm:pt-16 pb-10 sm:pb-12 border-t border-gray-800">
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 mb-10 sm:mb-12">
+                
+                <!-- Col 1: Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="https://i.imgur.com/YJB4Dyo.png" alt="Pro Care Solutions Footer Logo" class="h-9 sm:h-10 w-auto object-contain">
+                        <span class="text-lg sm:text-xl font-bold text-white tracking-tight">PRO CARE <span class="text-pblue">SOLUTIONS</span></span>
+                    </div>
+                    <!-- BODY TEXT (REGULAR HELVETICA) -->
+                    <p class="text-xs text-gray-400 leading-relaxed font-normal">
+                        Transforming spaces and maintaining properties with quality craftsmanship, attention to detail, and dependable service across Gqeberha.
+                    </p>
+                    <div class="pt-1">
+                        <span class="text-xs font-bold text-gray-300 block">Director: Melony Henriques</span>
+                    </div>
+                </div>
+
+                <!-- Col 2: Services -->
+                <div>
+                    <!-- SUBHEADING (BOLD) -->
+                    <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wider mb-3 sm:mb-4 border-l-2 border-pgreen pl-2.5">Key Services</h4>
+                    <ul class="space-y-2 text-xs font-normal">
+                        <li><a href="#services" class="hover:text-pgreen transition-colors py-0.5 inline-block">Home & Room Renovations</a></li>
+                        <li><a href="#services" class="hover:text-pgreen transition-colors py-0.5 inline-block">Gate Motors & Electric Fencing</a></li>
+                        <li><a href="#services" class="hover:text-pgreen transition-colors py-0.5 inline-block">Plumbing & Water Meter Installs</a></li>
+                        <li><a href="#services" class="hover:text-pgreen transition-colors py-0.5 inline-block">Electrical Repairs & Upgrades</a></li>
+                        <li><a href="#services" class="hover:text-pgreen transition-colors py-0.5 inline-block">Painting, Tiling & Roofing</a></li>
+                        <li><a href="#services" class="hover:text-pgreen transition-colors py-0.5 inline-block">Weekly Building Cleaning</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Contact Info -->
+                <div>
+                    <!-- SUBHEADING (BOLD) -->
+                    <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wider mb-3 sm:mb-4 border-l-2 border-pblue pl-2.5">Contact Details</h4>
+                    <ul class="space-y-3 text-xs font-normal">
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="phone" class="w-4 h-4 text-pblue flex-shrink-0"></i>
+                            <a href="tel:+27609711561" class="hover:text-white font-bold">+27 60 971 1561</a>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <svg class="w-4 h-4 fill-current text-[#25D366] flex-shrink-0" viewBox="0 0 24 24">
+                                <path d="M12.031 0C5.39 0 0 5.39 0 12.031c0 2.124.553 4.197 1.607 6.013L0 24l6.128-1.607a11.968 11.968 0 005.903 1.545h.005c6.64 0 12.03-5.39 12.03-12.031C24.066 5.39 18.671 0 12.031 0zm0 22.029h-.004a9.988 9.988 0 01-5.093-1.398l-.365-.217-3.785.992 1.01-3.69-.239-.38a9.962 9.962 0 01-1.528-5.305c0-5.523 4.493-10.016 10.018-10.016 5.522 0 10.015 4.493 10.015 10.016 0 5.523-4.493 10.018-10.019 10.018zm5.492-7.5c-.301-.151-1.782-.879-2.058-.979-.276-.1-.477-.151-.678.151-.201.301-.779.979-.955 1.18-.176.201-.352.226-.653.075-.301-.151-1.272-.469-2.423-1.495-.896-.799-1.501-1.786-1.677-2.087-.176-.301-.019-.464.132-.614.136-.135.301-.352.452-.528.151-.176.201-.301.301-.502.101-.201.05-.377-.025-.528-.075-.151-.678-1.633-.929-2.235-.245-.588-.495-.508-.678-.517l-.578-.01c-.201 0-.528.075-.804.377s-1.055 1.03-1.055 2.512 1.08 2.914 1.231 3.115c.151.201 2.125 3.245 5.148 4.551.719.31 1.281.496 1.719.635.723.23 1.381.197 1.901.12.58-.087 1.782-.728 2.033-1.431.251-.703.251-1.306.176-1.431-.075-.126-.276-.201-.577-.352z"/>
+                            </svg>
+                            <a href="https://wa.me/27609711561" target="_blank" rel="noopener" class="hover:text-white font-bold">+27 60 971 1561</a>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="mail" class="w-4 h-4 text-pgreen flex-shrink-0"></i>
+                            <a href="mailto:info@procaresolutions.co.za" class="hover:text-white font-normal break-all">info@procaresolutions.co.za</a>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-pblue flex-shrink-0 mt-0.5"></i>
+                            <span class="font-normal">Gqeberha, Eastern Cape, South Africa</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Links -->
+                <div>
+                    <!-- SUBHEADING (BOLD) -->
+                    <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wider mb-3 sm:mb-4 border-l-2 border-pgreen pl-2.5">Connect With Us</h4>
+                    <p class="text-xs text-gray-400 mb-4 font-normal">Follow us online or leave a review on Google Maps.</p>
+                    <div class="flex flex-col gap-2.5 text-xs font-bold">
+                        <a href="https://maps.app.goo.gl/fAjgL9Nu1ywtVyLF6?g_st=ic" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-gray-200 px-3.5 py-2.5 rounded-lg border border-gray-700 transition-colors min-h-[40px]">
+                            <i data-lucide="map" class="w-4 h-4 text-pblue flex-shrink-0"></i> Google Business Profile
+                        </a>
+                        
+                        <a href="https://www.facebook.com/share/1Jaa9RG4Sn/?mibextid=wwXIfr" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-gray-200 px-3.5 py-2.5 rounded-lg border border-gray-700 transition-colors min-h-[40px]">
+                            <svg class="w-4 h-4 fill-current text-[#1877F2] flex-shrink-0" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            <span>Facebook Page</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border-t border-gray-800 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 text-xs text-gray-500 font-normal text-center sm:text-left">
+                <p>&copy; <span id="year"></span> Pro Care Solutions. All rights reserved.</p>
+                <p class="text-gray-500">Gqeberha, Eastern Cape • Quality Property Renovations</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Implementations -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Set Copyright Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Toggle Header Menu Dropdown
+        function toggleHeaderMenu() {
+            const menu = document.getElementById('header-menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        }
+
+        // Close Header Menu on Link Selection
+        function closeHeaderMenu() {
+            const menu = document.getElementById('header-menu');
+            menu.classList.add('hidden');
+        }
+
+        // Tab switching logic for Services section
+        function switchServiceTab(category) {
+            const buttons = document.querySelectorAll('.service-tab-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-navy', 'text-white', 'shadow-sm', 'active-tab');
+                btn.classList.add('text-gray-600', 'hover:text-navy', 'hover:bg-gray-100');
+            });
+
+            const activeBtn = document.getElementById(`tab-btn-${category}`);
+            if (activeBtn) {
+                activeBtn.classList.remove('text-gray-600', 'hover:text-navy', 'hover:bg-gray-100');
+                activeBtn.classList.add('bg-navy', 'text-white', 'shadow-sm', 'active-tab');
+            }
+
+            const rows = document.querySelectorAll('.service-row');
+            rows.forEach(row => {
+                if (category === 'all' || row.dataset.category === category) {
+                    row.classList.remove('hidden');
+                } else {
+                    row.classList.add('hidden');
+                }
+            });
+        }
+
+        // FAQ Toggle Functionality
+        function toggleFaq(index) {
+            const ans = document.getElementById(`faq-ans-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            
+            if (ans.classList.contains('hidden')) {
+                ans.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                ans.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // Lightbox Functions for Gallery
+        function openLightbox(imgSrc) {
+            document.getElementById('modal-img').src = imgSrc;
+            document.getElementById('lightbox').classList.remove('hidden');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.add('hidden');
+        }
+
+        // Close lightbox on backdrop click
+        document.getElementById('lightbox').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeLightbox();
+            }
+        });
+    </script>
+</body>
+</html>
